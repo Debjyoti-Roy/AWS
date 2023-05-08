@@ -3,10 +3,12 @@ package com.aws.Service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.aws.DAO.Aws_DAO;
 import com.aws.Model.Model;
 
+@Service
 public class Aws_ServiceImpl implements Aws_Service {
 	
 	@Autowired
